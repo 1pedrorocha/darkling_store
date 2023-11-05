@@ -1,7 +1,4 @@
 .burger-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.1);
   width: 48px;
@@ -9,4 +6,5 @@
   background-image: url(../img/burger-menu.svg);
   background-repeat: no-repeat;
   background-position: center;
+  display: inline-block;
 }
