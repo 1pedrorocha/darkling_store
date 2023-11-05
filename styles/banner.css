@@ -1,0 +1,37 @@
+.banner {
+  background-color: var(--background-color-tertiary);
+  margin-top: -90px;
+  z-index: 0;
+  padding: 140px 50px 32px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-subtitle {
+  font-family: var(--title-font);
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.banner-paragraph {
+  font-family: var(--main-font);
+  font-weight: 200;
+  margin: 2em 0;
+}
+
+.search-button {
+  font-family: var(--main-font);
+  color: var(--background-color-tertiary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-yellow);
+
+  padding: 12px;
+  border-radius: 16px;
+
+  width: 200px;
+}
