@@ -1,0 +1,46 @@
+.suggestion {
+  background-color: var(--background-color-lighter);
+  margin: 32px 32px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+}
+
+.suggestion-content {
+  padding-right: 16px;
+}
+
+.suggestion-title {
+  font-family: var(--title-font);
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.suggestion-text {
+  font-weight: 300;
+}
+
+.suggestion-image {
+  width: auto;
+}
+
+.suggestion-image img {
+  width: 140px;
+}
+
+.suggestion-button {
+  background-color: var(--main-yellow);
+  color: var(--background-color-lighter);
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.suggestion-button a {
+  text-decoration: none;
+  color: var(--background-color-lighter);
+  font-weight: 600;
+}

@@ -1,0 +1,57 @@
+.bottom {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem 3rem 2rem;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 2;
+  margin-top: -20px;
+}
+
+.bottom-title {
+  color: var(--main-yellow);
+  font-family: var(--title-font);
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.bottom-text {
+  font-family: var(--main-font);
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin: 32px;
+  width: 100%;
+  border-color: var(--background-color-lighter);
+}
+
+.subscribe-input {
+  font-family: var(--main-font);
+  color: var(--background-color-tertiary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color-tertiary);
+  height: 36px;
+  border-radius: 16px;
+
+  border: 0;
+
+  width: 80%;
+
+  padding: 0 1em 0 1em;
+}
+
+.subscribe-input::placeholder {
+  background: url("../img/email.svg") no-repeat;
+  background-position: 1em;
+  padding: 1em;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+.most-visited {
+  background-color: var(--background-color-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem 3.5rem 2rem;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1;
+}
+
+.most-visited-title {
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  gap: 12px 12px;
+}
+
+.most-visited ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.most-visited li {
+  margin: 6px 12px;
+}
+
+.most-visited a {
+  color: var(--main-yellow);
+}
