@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+
     <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Darkling Store</title>
   </head>
@@ -40,5 +45,51 @@
       <p class="banner-paragraph">Search for your next darklink:</p>
       <input type="text" class="search-input" placeholder="Search" />
     </section>
+    <section class="carousel">
+      <h2 class="carousel-title">What about a minion?</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="img/minion1.png" alt="minion 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/minion2.png" alt="minion 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/minion3.png" alt="minion 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/minion4.png" alt="minion 4" />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 1,
+        perSlideOffset: 8,
+        effect: "cards",
+        slideShadows: false,
+        shadow: false,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
   </body>
 </html>

@@ -1,0 +1,39 @@
+.carousel {
+  padding-top: 36px;
+}
+
+.carousel-title {
+  color: var(--white);
+  text-align: center;
+  font-family: var(--title-font);
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.swiper-3d .swiper-slide-shadow {
+  background: rgba(0, 0, 0, 0);
+}
+
+.swiper-slide img {
+  width: 180px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin-bottom: 16px;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--swiper-pagination-color, var(--main-yellow));
+}
