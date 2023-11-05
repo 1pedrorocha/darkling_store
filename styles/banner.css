@@ -21,7 +21,7 @@
   margin: 2em 0;
 }
 
-.search-button {
+.search-input {
   font-family: var(--main-font);
   color: var(--background-color-tertiary);
 
@@ -29,9 +29,19 @@
   align-items: center;
   justify-content: center;
   background-color: var(--main-yellow);
-
-  padding: 12px;
+  height: 36px;
   border-radius: 16px;
 
+  border: 0;
+
   width: 200px;
+  padding: 0 1em 0 1em;
+}
+
+.search-input::placeholder {
+  background: url("../img/search-icon.svg") no-repeat;
+  background-position: 1em;
+  padding: 1em;
+  text-align: center;
+  color: var(--background-color-tertiary);
 }
