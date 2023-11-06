@@ -45,3 +45,26 @@
 .swiper-pagination-bullet-active {
   background: var(--swiper-pagination-color, var(--main-yellow));
 }
+
+/* MEDIA QUERY - TABLET */
+
+@media screen and (width: 1024px) {
+  .carousel {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .carousel-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .swiper-pagination {
+    position: initial;
+    margin-bottom: 20px;
+  }
+
+  .swiper-slide img {
+    width: 240px;
+  }
+}

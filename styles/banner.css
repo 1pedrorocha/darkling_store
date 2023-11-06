@@ -35,13 +35,35 @@
   border: 0;
 
   width: 200px;
-  padding: 0 1em 0 1em;
+  padding: 2px 1em 0 1em;
 }
 
 .search-input::placeholder {
   background: url("../img/search-icon.svg") no-repeat;
-  background-position: 1em;
-  padding: 1em;
+  background-position: 0em;
+  padding: 0 1em;
   text-align: center;
   color: var(--background-color-tertiary);
+}
+
+/* MEDIA QUERY - TABLET */
+
+@media screen and (width: 1024px) {
+  .banner {
+    padding: 200px 50px 90px 50px;
+  }
+
+  .banner-subtitle {
+    font-size: 2rem;
+  }
+
+  .banner-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .search-input {
+    font-size: 1.2rem;
+    height: 48px;
+    width: 200px;
+  }
 }
