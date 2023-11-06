@@ -33,7 +33,7 @@ hr {
 
 .subscribe-input {
   font-family: var(--main-font);
-  color: var(--background-color-tertiary);
+  color: var(--white);
 
   display: flex;
   align-items: center;
@@ -43,15 +43,12 @@ hr {
   border-radius: 16px;
 
   border: 0;
-
   width: 80%;
-
   padding: 0 1em 0 1em;
 }
 
 .subscribe-input::placeholder {
   background: url("../img/email.svg") no-repeat;
-  background-position: 1em;
-  padding: 1em;
-  text-align: center;
+  background-position: 0.5em;
+  padding-left: 3em;
 }
