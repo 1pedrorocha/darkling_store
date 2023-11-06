@@ -1,3 +1,8 @@
+.suggestion-center {
+  display: flex;
+  justify-content: center;
+}
+
 .suggestion {
   background-color: var(--background-color-lighter);
   margin: 32px 32px;
@@ -5,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   border-radius: 16px;
+  max-width: 400px;
 }
 
 .suggestion-content {

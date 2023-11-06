@@ -58,3 +58,54 @@
   font-size: 1.5rem;
   color: var(--main-yellow);
 }
+
+.logo-composition {
+  display: flex;
+  align-items: center;
+}
+
+/* NOT VISIBLE IN THE MOBILE VERSION */
+.logo-name,
+.nav-menu {
+  display: none;
+}
+
+/* MEDIA QUERY - TABLET */
+
+@media screen and (min-width: 1024px) {
+  .logo-name {
+    margin: 0 1em;
+    display: block;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+
+  .nav-menu-list {
+    display: flex;
+  }
+
+  .nav-menu-link {
+    text-decoration: none;
+    color: var(--white);
+    padding: 1em;
+  }
+
+  .menu-list {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: auto;
+    background-color: var(--background-color-secondary);
+    padding: 32px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+  }
+
+  /* NOT VISIBLE IN THE TABLET BREAKPOINT */
+
+  .burger-menu {
+    display: none;
+  }
+}

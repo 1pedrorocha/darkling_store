@@ -15,7 +15,37 @@
   </head>
   <body>
     <header class="header">
-      <img src="img/logo.svg" alt="logo" />
+      <div class="logo-composition">
+        <img src="img/logo.svg" alt="logo" />
+        <img src="img/logo-name.svg" alt="logo name" class="logo-name" />
+      </div>
+
+      <!-- NAV MENU - 1024 -->
+      <div class="nav-menu">
+        <ul class="nav-menu-list">
+          <input type="checkbox" id="category-menu" class="button-container" />
+          <label for="category-menu">
+            <li class="nav-menu-link">Categories</li>
+          </label>
+          <ul class="menu-list">
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Darklings</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Heroes</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Rewards</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Soul Fragments</a>
+            </li>
+          </ul>
+          <li class="nav-menu-link">My collection</li>
+        </ul>
+      </div>
+      <!-- END OF NAV MENU -->
+
       <div class="header-icons">
         <img src="img/favorite.svg" alt="favorite icon" />
         <img src="img/cart.svg" alt="cart icon" />
@@ -80,18 +110,20 @@
     </section>
 
     <!-- SUGGESTION - DRAGON -->
-    <section class="suggestion">
-      <div class="suggestion-content">
-        <h2 class="suggestion-title">Do you want a Dragon?</h2>
-        <p class="suggestion-text">
-          This could be a unique chance for you to purchade your own dragon
-          darkling.
-        </p>
-      </div>
-      <div class="suggestion-image">
-        <img src="img/dragon.png" alt="dragon image" />
-      </div>
-    </section>
+    <div class="suggestion-center">
+      <section class="suggestion">
+        <div class="suggestion-content">
+          <h2 class="suggestion-title">Do you want a Dragon?</h2>
+          <p class="suggestion-text">
+            This could be a unique chance for you to purchade your own dragon
+            darkling.
+          </p>
+        </div>
+        <div class="suggestion-image">
+          <img src="img/dragon.png" alt="dragon image" />
+        </div>
+      </section>
+    </div>
 
     <!-- CAROUSEL TROLLS -->
     <section class="carousel">
@@ -127,21 +159,25 @@
     </section>
 
     <!-- SUGGESTION - HERO -->
-    <section class="suggestion">
-      <div class="suggestion-content">
-        <h2 class="suggestion-title">Hero of the year</h2>
-        <p class="suggestion-text">
-          Your soul hero can help you achieve your goals!
-        </p>
+    <div class="suggestion-center">
+      <section class="suggestion">
+        <div class="suggestion-content">
+          <h2 class="suggestion-title">Hero of the year</h2>
+          <p class="suggestion-text">
+            Your soul hero can help you achieve your goals!
+          </p>
 
-        <div class="suggestion-button">
-          <a href="#"> <p>Let's go!</p></a>
+          <div class="suggestion-button">
+            <a href="#"> <p>Let's go!</p></a>
+          </div>
         </div>
-      </div>
-      <div class="suggestion-image">
-        <img src="img/hero.png" alt="hero image" />
-      </div>
-    </section>
+        <div class="suggestion-image">
+          <img src="img/hero.png" alt="hero image" />
+        </div>
+      </section>
+    </div>
+
+    <!-- MOST VISITED -->
 
     <section class="most-visited">
       <h4 class="most-visited-title">Most visited topics</h4>
