@@ -120,6 +120,18 @@
     align-items: center;
   }
 
+  .button-container:checked ~ .label-tablet > .nav-menu-link {
+    color: var(--main-yellow);
+  }
+
+  .menu-list__item :hover {
+    box-shadow: 0 2px;
+  }
+
+  .menu-list__item:hover > .menu-list__link {
+    color: wheat;
+  }
+
   /* NOT VISIBLE IN THE TABLET BREAKPOINT */
 
   .burger-menu {
