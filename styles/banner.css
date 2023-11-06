@@ -24,6 +24,7 @@
 .search-input {
   font-family: var(--main-font);
   color: var(--background-color-tertiary);
+  font-size: 1.1em;
 
   display: flex;
   align-items: center;
