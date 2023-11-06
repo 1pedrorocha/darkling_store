@@ -33,7 +33,7 @@
 
 /* MEDIA QUERY - TABLET */
 
-@media screen and (width: 1024px) {
+@media screen and (min-width: 1024px) {
   .most-visited {
     padding: 4rem 2rem 5rem 2rem;
     border-radius: 32px 32px 0 0;
@@ -47,5 +47,9 @@
   .most-visited li {
     font-size: 24px;
     margin: 12px;
+  }
+
+  .most-visited ul {
+    width: 80%;
   }
 }

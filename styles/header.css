@@ -64,9 +64,14 @@
   align-items: center;
 }
 
+.header-left {
+  display: flex;
+}
+
 /* NOT VISIBLE IN THE MOBILE VERSION */
 .logo-name,
-.nav-menu {
+.nav-menu,
+.header-desktop {
   display: none;
 }
 
@@ -103,9 +108,23 @@
     border-radius: 16px;
   }
 
+  .header-icons a {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
   /* NOT VISIBLE IN THE TABLET BREAKPOINT */
 
   .burger-menu {
     display: none;
+  }
+}
+
+/* MEDIA QUERY - DESKTOP */
+
+@media screen and (min-width: 1728px) {
+  .header-desktop {
+    display: block;
   }
 }

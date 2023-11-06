@@ -53,7 +53,7 @@
 
 /* MEDIA QUERY - TABLET */
 
-@media screen and (width: 1024px) {
+@media screen and (min-width: 1024px) {
   .suggestion {
     margin: 60px 60px;
     padding: 32px;

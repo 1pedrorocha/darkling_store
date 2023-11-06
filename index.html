@@ -15,41 +15,61 @@
   </head>
   <body>
     <header class="header">
-      <div class="logo-composition">
-        <img src="img/logo.svg" alt="logo" />
-        <img src="img/logo-name.svg" alt="logo name" class="logo-name" />
-      </div>
+      <div class="header-left">
+        <div class="logo-composition">
+          <img src="img/logo.svg" alt="logo" />
+          <img src="img/logo-name.svg" alt="logo name" class="logo-name" />
+        </div>
 
-      <!-- NAV MENU - 1024 -->
-      <div class="nav-menu">
-        <ul class="nav-menu-list">
-          <input type="checkbox" id="category-menu" class="button-container" />
-          <label for="category-menu">
-            <li class="nav-menu-link">Categories</li>
-          </label>
-          <ul class="menu-list">
-            <li class="menu-list__item">
-              <a href="#" class="menu-list__link">Darklings</a>
-            </li>
-            <li class="menu-list__item">
-              <a href="#" class="menu-list__link">Heroes</a>
-            </li>
-            <li class="menu-list__item">
-              <a href="#" class="menu-list__link">Rewards</a>
-            </li>
-            <li class="menu-list__item">
-              <a href="#" class="menu-list__link">Soul Fragments</a>
-            </li>
+        <!-- NAV MENU - 1024 -->
+        <div class="nav-menu">
+          <ul class="nav-menu-list">
+            <input
+              type="checkbox"
+              id="category-menu"
+              class="button-container"
+            />
+            <label for="category-menu">
+              <li class="nav-menu-link">Categories</li>
+            </label>
+            <ul class="menu-list">
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Darklings</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Heroes</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Rewards</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Soul Fragments</a>
+              </li>
+            </ul>
+            <li class="nav-menu-link">My collection</li>
           </ul>
-          <li class="nav-menu-link">My collection</li>
-        </ul>
+        </div>
+        <!-- END OF NAV MENU -->
       </div>
-      <!-- END OF NAV MENU -->
-
       <div class="header-icons">
-        <img src="img/favorite.svg" alt="favorite icon" />
-        <img src="img/cart.svg" alt="cart icon" />
-        <img src="img/user.svg" alt="user icon" />
+        <div>
+          <a>
+            <img src="img/favorite.svg" alt="favorite icon" />
+            <p class="header-desktop">Favorites</p>
+          </a>
+        </div>
+        <div>
+          <a>
+            <img src="img/cart.svg" alt="cart icon" />
+            <p class="header-desktop">Cart</p>
+          </a>
+        </div>
+        <div>
+          <a>
+            <img src="img/user.svg" alt="user icon" />
+            <p class="header-desktop">User</p>
+          </a>
+        </div>
         <input type="checkbox" id="menu" class="button-container" />
         <label for="menu">
           <span class="burger-menu"> </span>
@@ -226,6 +246,31 @@
       <hr />
 
       <p class="bottom-text">Inner Hero ® 2023</p>
+
+      <div class="bottom-menu">
+        <ul class="bottom-menu-list">
+          <li><h3 class="bottom-menu-list-title">Heroes</h3></li>
+          <li><a href="#" class="bottom-menu-list-item">Your heroes</a></li>
+        </ul>
+        <ul class="bottom-menu-list">
+          <li><h3 class="bottom-menu-list-title">Soul Fragments</h3></li>
+          <li><a href="#" class="bottom-menu-list-item">Health</a></li>
+          <li><a href="#" class="bottom-menu-list-item">Physical</a></li>
+          <li><a href="#" class="bottom-menu-list-item">Knowledge</a></li>
+          <li><a href="#" class="bottom-menu-list-item">Charisma</a></li>
+        </ul>
+        <ul class="bottom-menu-list">
+          <li><h3 class="bottom-menu-list-title">Darklings</h3></li>
+          <li><a href="#" class="bottom-menu-list-item">Minions</a></li>
+          <li><a href="#" class="bottom-menu-list-item">Trolls</a></li>
+          <li><a href="#" class="bottom-menu-list-item">Dragons</a></li>
+        </ul>
+        <ul class="bottom-menu-list">
+          <li><h3 class="bottom-menu-list-title">Rewards</h3></li>
+          <li><a href="#" class="bottom-menu-list-item">Big treasures</a></li>
+          <li><a href="#" class="bottom-menu-list-item">Small treasures</a></li>
+        </ul>
+      </div>
     </section>
 
     <!-- SCRIPT -->
