@@ -14,7 +14,6 @@
 .most-visited-title {
   font-weight: 300;
   margin-bottom: 1.5rem;
-  gap: 12px 12px;
 }
 
 .most-visited ul {
@@ -30,4 +29,23 @@
 
 .most-visited a {
   color: var(--main-yellow);
+}
+
+/* MEDIA QUERY - TABLET */
+
+@media screen and (width: 1024px) {
+  .most-visited {
+    padding: 4rem 2rem 5rem 2rem;
+    border-radius: 32px 32px 0 0;
+  }
+
+  .most-visited-title {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+
+  .most-visited li {
+    font-size: 24px;
+    margin: 12px;
+  }
 }
