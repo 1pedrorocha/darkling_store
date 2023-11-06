@@ -13,6 +13,7 @@
 
 .header-icons {
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 
@@ -66,6 +67,11 @@
 
 .header-left {
   display: flex;
+}
+
+.button-container:checked ~ .label-container > .burger-menu {
+  background-image: url(../img/burger-menu-clicked.svg);
+  background-color: var(--main-yellow);
 }
 
 /* NOT VISIBLE IN THE MOBILE VERSION */
