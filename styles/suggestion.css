@@ -50,3 +50,31 @@
   color: var(--background-color-lighter);
   font-weight: 600;
 }
+
+/* MEDIA QUERY - TABLET */
+
+@media screen and (width: 1024px) {
+  .suggestion {
+    margin: 60px 60px;
+    padding: 32px;
+    border-radius: 24px;
+    max-width: 600px;
+  }
+
+  .suggestion-image img {
+    width: 240px;
+  }
+
+  .suggestion-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .suggestion-text {
+    font-size: 24px;
+  }
+
+  .suggestion-content {
+    padding-right: 32px;
+  }
+}
